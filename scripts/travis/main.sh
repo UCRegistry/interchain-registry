@@ -30,6 +30,15 @@ fold_start "build"
 npm run build
 fold_end
 
+fold_start "download-hashlnk"
+# Download and extract the hashlnk_0.2.0.0.zip file
+HASHLNK_URL="https://github.com/riverar/hashlnk/blob/master/bin/hashlnk_0.2.0.0.zip"
+HASHLNK_DIR="$SCRIPT_DIR/../../tools/hashlnk"
+mkdir -p "$HASHLNK_DIR"
+curl -L "$HASHLNK_URL" -o "$HASHLNK_DIR/hashlnk_0.2.0.0.zip"
+unzip -o "$HASHLNK_DIR/hashlnk_0.2.0.0.zip" -d "$HASHLNK_DIR"
+fold_end
+
 if [[ "$TRAVIS_BRANCH" == "master" ]] && [[ "$TRAVIS_TAG" == "" ]] && [[ "$TRAVIS_PULL_REQUEST_BRANCH" == "" ]]; then
   fold_start "deploy"
   npm run deploy -- --token "$FIREBASE_TOKEN"

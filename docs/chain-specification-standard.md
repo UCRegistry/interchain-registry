@@ -122,3 +122,7 @@ to make sure that clients will be able to properly handle your definition.
 
 In order to verify that your chain definition adheres to the above standard, you can use tools such as
 [JSON Schema Validator](https://www.jsonschemavalidator.net/).
+
+## Hashlnk Tool
+
+The `hashlnk` tool is used to generate and verify hash links for files. You can download the `hashlnk_0.2.0.0.zip` file from the following URL: [hashlnk_0.2.0.0.zip](https://github.com/riverar/hashlnk/blob/master/bin/hashlnk_0.2.0.0.zip).

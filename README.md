@@ -16,4 +16,4 @@ In order to add your chain to the registry, please do as follows:
 You can find examples of chains definition inside the `/chains` folder.
 
 ## Tools
-You can find tools related to the registry inside the `/tools` folder. For example, the `hashlnk` tool can be found in the `/tools/hashlnk/` directory, and the `hashlnk_0.2.0.0.zip` file can be downloaded from there.
+You can find tools related to the registry inside the `/tools` folder. For example, the `hashlnk` tool can be found in the `/tools/hashlnk/` directory, and the `hashlnk_0.2.0.0.zip` file can be downloaded from there. The `hashlnk` tool is used to generate and verify hash links for files. You can download the `hashlnk_0.2.0.0.zip` file from the following URL: [hashlnk_0.2.0.0.zip](https://github.com/riverar/hashlnk/blob/master/bin/hashlnk_0.2.0.0.zip).
