@@ -14,3 +14,6 @@ In order to add your chain to the registry, please do as follows:
 
 ## Examples
 You can find examples of chains definition inside the `/chains` folder.
+
+## Tools
+You can find tools related to the registry inside the `/tools` folder. For example, the `hashlnk` tool can be found in the `tools/hashlnk/` directory, and the `hashlnk_0.2.0.0.zip` file can be downloaded from there.
