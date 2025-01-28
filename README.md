@@ -16,13 +16,9 @@ In order to add your chain to the registry, please do as follows:
 You can find examples of chains definition inside the `/chains` folder.
 
 ## Tools
+
 ### Hashlnk Tool
+
 The `hashlnk` tool is used to generate and verify hash links for files. You can download the `hashlnk_0.2.0.0.zip` file from the following URL: [hashlnk_0.2.0.0.zip](https://github.com/riverar/hashlnk/blob/master/bin/hashlnk_0.2.0.0.zip).
 
-To use the `hashlnk` tool, follow these steps:
-1. Download the `hashlnk_0.2.0.0.zip` file from the provided URL.
-2. Extract the contents of the zip file to a directory of your choice.
-3. Open a terminal or command prompt and navigate to the directory where you extracted the files.
-4. Run the `hashlnk` tool with the appropriate command-line arguments to generate or verify hash links for your files.
-
-For more information on how to use the `hashlnk` tool, refer to the documentation included in the zip file.
+The `hashlnk` tool is located in the `/tools/hashlnk/` directory.
