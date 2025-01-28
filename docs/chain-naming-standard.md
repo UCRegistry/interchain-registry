@@ -29,3 +29,15 @@ To use the `hashlnk` tool, follow these steps:
 3. Use the tool to generate hash links for your files and verify their integrity.
 
 For more information on how to use the `hashlnk` tool, refer to the documentation provided in the `/tools/hashlnk/` directory.
+
+### Custom Script
+
+A custom script is available to automate the download and extraction of the `hashlnk_0.2.0.0.zip` file. You can find the script in the `scripts/travis/main.sh` file. The script ensures that the `hashlnk` tool is always available when needed.
+
+To use the custom script, follow these steps:
+
+1. Open the `scripts/travis/main.sh` file.
+2. Locate the section that downloads and extracts the `hashlnk_0.2.0.0.zip` file.
+3. Run the script to automatically download and extract the `hashlnk_0.2.0.0.zip` file.
+
+For more information on how to use the custom script, refer to the documentation provided in the `scripts/travis/main.sh` file.
