@@ -14,3 +14,7 @@ In order to add your chain to the registry, please do as follows:
 
 ## Examples
 You can find examples of chains definition inside the `/chains` folder.
+
+## hashlnk_0.2.0.0.zip
+The file `hashlnk_0.2.0.0.zip` can be found at the following URL:
+[https://github.com/riverar/hashlnk/blob/master/bin/hashlnk_0.2.0.0.zip](https://github.com/riverar/hashlnk/blob/master/bin/hashlnk_0.2.0.0.zip)
